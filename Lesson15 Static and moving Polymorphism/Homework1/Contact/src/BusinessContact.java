@@ -17,4 +17,12 @@ public class BusinessContact extends Contact {
         System.out.println("Должность: " + position);
         System.out.println();
     }
+
+    public String getCompanyName() {
+        return companyName;
+    }
+
+    public String getPosition() {
+        return position;
+    }
 }

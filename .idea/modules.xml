@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Practice/Animal/Animal.iml" filepath="$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Practice/Animal/Animal.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Homework/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Homework/BankAccount/BankAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/BankAccount1/BankAccount1.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/BankAccount1/BankAccount1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Boleev521Java.iml" filepath="$PROJECT_DIR$/Boleev521Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Contact/Contact.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Contact/Contact.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Converter/Converter.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Converter/Converter.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Lesson14 OOP. Inheritance. Access modifiers.iml" filepath="$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Lesson14 OOP. Inheritance. Access modifiers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Lesson15 Static and moving Polymorphism.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Lesson15 Static and moving Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Practice/Practice.iml" filepath="$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Practice/Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/Practice1.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/Practice1.iml" />
     </modules>
   </component>
 </project>

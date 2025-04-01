@@ -9,6 +9,18 @@ public class Contact {
         this.email = email;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
     public void displayInfo() {
         System.out.println("Контакт: " + name);
         System.out.println("Телефон: " + phoneNumber);
