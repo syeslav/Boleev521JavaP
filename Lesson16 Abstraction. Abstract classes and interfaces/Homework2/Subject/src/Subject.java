@@ -18,4 +18,12 @@ public abstract class Subject {
 
     // Абстрактный метод для изучения предмета
     public abstract void study();
+
+    public void setSubjectName(String subjectName) {
+        this.subjectName = subjectName;
+    }
+
+    public void setTeacher(String teacher) {
+        this.teacher = teacher;
+    }
 }

@@ -14,4 +14,12 @@ public class VideoPlayer implements MediaPlayer {
     public void stop() {
         System.out.println("■ Видео остановлено\n");
     }
+
+    public String getCurrentVideo() {
+        return currentVideo;
+    }
+
+    public void setCurrentVideo(String currentVideo) {
+        this.currentVideo = currentVideo;
+    }
 }

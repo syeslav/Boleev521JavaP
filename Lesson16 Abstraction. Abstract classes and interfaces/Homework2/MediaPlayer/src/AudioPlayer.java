@@ -14,4 +14,12 @@ public class AudioPlayer implements MediaPlayer {
     public void stop() {
         System.out.println("Аудио остановлено\n");
     }
+
+    public String getCurrentTrack() {
+        return currentTrack;
+    }
+
+    public void setCurrentTrack(String currentTrack) {
+        this.currentTrack = currentTrack;
+    }
 }
