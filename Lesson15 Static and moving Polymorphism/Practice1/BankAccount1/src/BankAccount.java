@@ -2,20 +2,17 @@ import javax.naming.InsufficientResourcesException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class BankAccount {
-    private String accountNumber;       //номер счета
+    private final String accountNumber;       //номер счета
     private String accountHolderName;   //имя владельца
-    private double balance;             //текущий баланс
+    public double balance;             //текущий баланс
     private LocalDate openingDate;      //дата открытия счёта
     private List<Transaction> Transaction = new ArrayList<>();
 
-    public BankAccount(String accountNumber, LocalDate openingDate, double balance, String accountHolderName) {
+    public BankAccount(String accountNumber, double balance) {
         this.accountNumber = accountNumber;
-        this.openingDate = openingDate;
         this.balance = balance;
-        this.accountHolderName = accountHolderName;
     }
 
     //пополняет счет на указанную сумму
@@ -47,7 +44,9 @@ public class BankAccount {
         System.out.println(this.balance);
     }
 
-    public abstract void applyMonthlyInterest();
+    public void applyMonthlyInterest() throws IllegalAccessException {
+
+    }
 
     public String getAccountHolderName() {
         return accountHolderName;
@@ -63,5 +62,13 @@ public class BankAccount {
 
     public double getBalance() {
         return balance;
+    }
+
+    public List<Transaction> getTransaction() {
+        return Transaction;
+    }
+
+    public void setTransaction(List<Transaction> transaction) {
+        Transaction = transaction;
     }
 }
