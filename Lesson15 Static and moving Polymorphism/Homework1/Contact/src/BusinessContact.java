@@ -1,6 +1,6 @@
 public class BusinessContact extends Contact {
-    private String companyName;
-    private String position;
+    private final String companyName;
+    private final String position;
 
     public BusinessContact(String name, String phoneNumber, String email,
                            String companyName, String position) {

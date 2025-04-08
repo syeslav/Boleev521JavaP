@@ -3,21 +3,27 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Practice/Animal/Animal.iml" filepath="$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Practice/Animal/Animal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Practice16/Animal1/Animal1.iml" filepath="$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Practice16/Animal1/Animal1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Homework/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Homework/BankAccount/BankAccount.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/BankAccount1/BankAccount1.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/BankAccount1/BankAccount1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Boleev521Java.iml" filepath="$PROJECT_DIR$/Boleev521Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Contact/Contact.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Contact/Contact.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Converter/Converter.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Converter/Converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson17 Generics/Homework3/Generics/Generics.iml" filepath="$PROJECT_DIR$/Lesson17 Generics/Homework3/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Homework/Homework.iml" filepath="$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Homework/Homework.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Homework1.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Homework1/Homework1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Homework2/Homework2.iml" filepath="$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Homework2/Homework2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson17 Generics/Homework3/Homework3.iml" filepath="$PROJECT_DIR$/Lesson17 Generics/Homework3/Homework3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Lesson14 OOP. Inheritance. Access modifiers.iml" filepath="$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Lesson14 OOP. Inheritance. Access modifiers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Lesson15 Static and moving Polymorphism.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Lesson15 Static and moving Polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Lesson16 Abstraction. Abstract classes and interfaces.iml" filepath="$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Lesson16 Abstraction. Abstract classes and interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson17 Generics/Lesson17 Generics.iml" filepath="$PROJECT_DIR$/Lesson17 Generics/Lesson17 Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/Media/Media.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/Media/Media.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Homework2/MediaPlayer/MediaPlayer.iml" filepath="$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Homework2/MediaPlayer/MediaPlayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Practice/Practice.iml" filepath="$PROJECT_DIR$/Lesson14 OOP. Inheritance. Access modifiers/Practice/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/Practice1.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/Practice1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Practice16/Practice16.iml" filepath="$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Practice16/Practice16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson17 Generics/Practice2/Practice2.iml" filepath="$PROJECT_DIR$/Lesson17 Generics/Practice2/Practice2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/Product/Product.iml" filepath="$PROJECT_DIR$/Lesson15 Static and moving Polymorphism/Practice1/Product/Product.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Homework2/Subject/Subject.iml" filepath="$PROJECT_DIR$/Lesson16 Abstraction. Abstract classes and interfaces/Homework2/Subject/Subject.iml" />
     </modules>

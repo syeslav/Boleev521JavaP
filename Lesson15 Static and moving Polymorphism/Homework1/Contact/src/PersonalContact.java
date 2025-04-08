@@ -1,5 +1,5 @@
 public class PersonalContact extends Contact {
-    private String address;
+    private final String address;
 
     public PersonalContact(String name, String phoneNumber, String email, String address) {
         super(name, phoneNumber, email);
