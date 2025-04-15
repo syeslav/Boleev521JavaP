@@ -37,8 +37,8 @@ public class Generics {
     // Примеры использования
     public static void main(String[] args) {
         // Задача 1
-        Integer[] arr1 = {1, 2, 3};
-        Integer[] arr2 = {1, 2, 3};
+        Integer[] arr1 = {null};
+        Integer[] arr2 = {null};
         System.out.println("Сравнение массивов: " + compareArrays(arr1, arr2)); // true
 
         // Задача 2
