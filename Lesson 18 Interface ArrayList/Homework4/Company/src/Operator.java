@@ -1,14 +1,14 @@
 /* зарплата складывается только из фиксированной части. */
 
-public class Operator extends Employee {
-    private int salaryOperator;
+public class Operator implements Employee {
+    private  final double fixedSalary;
 
-    public Operator(int salaryOperator) {
-        this.salaryOperator = salaryOperator;
+    public Operator(double fixedSalary) {
+        this.fixedSalary = fixedSalary;
     }
 
     @Override
-    public void getMonthSalary() {
-
+    public double getMonthSalary() {
+        return fixedSalary;
     }
 }

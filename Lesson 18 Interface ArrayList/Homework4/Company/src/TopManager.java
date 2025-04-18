@@ -1,16 +1,14 @@
-/* зарплата складывается из фиксированной части и бонуса в виде 150% от заработной платы, если доход компании более 10 млн рублей. */
+public class TopManager implements Employee {
+    private final double fixedSalary;
+    private final Company company;
 
-public class TopManager extends Employee {
-    final double BONUS = 1.5;
-    final int INITIAL_BALANCE = 10_000_000;
-    private int salaryTopManager;
-
-    public TopManager(int salaryTopManager) {
-        this.salaryTopManager = salaryTopManager;
+    public TopManager(double fixedSalary, Company company) {
+        this.fixedSalary = fixedSalary;
+        this.company = company;
     }
 
     @Override
-    public void getMonthSalary() {
-
+    public double getMonthSalary() {
+        return company.getIncome() > 10_000_000 ? fixedSalary * 2.5 : fixedSalary;
     }
 }

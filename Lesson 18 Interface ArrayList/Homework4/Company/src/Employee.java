@@ -1,9 +1,6 @@
-import java.util.List;
-
-public abstract class Employee{
-
+public interface Employee {
     /**
-     *  возвращающий зарплату сотрудника
+     * возвращающий зарплату сотрудника
      */
-    public abstract void getMonthSalary();
+    double getMonthSalary();
 }
