@@ -1,4 +1,4 @@
-import java.io.File;
+import java.io.*;
 import java.util.Scanner;
 
 /*
@@ -9,7 +9,17 @@ Todo: 1.Пользователь вводит с клавиатуры пути �
         5.	Программа выводит на экран отчет о количестве перенесенных байт.
 
  */
+
 public class Task3 {
+
+    public static boolean validateFile(File file, String errorMessage) {
+        if (!file.exists() || !file.isFile()) {
+            System.out.println(errorMessage);
+        }
+        return false;
+    }
+
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -21,7 +31,7 @@ public class Task3 {
 
         System.out.println("Введите путь к третьему файлу: ");
         String filePathThree = scanner.nextLine();
-        
+
         System.out.println("Ведите путь к четвертому файлу: ");
         String filePathFour = scanner.nextLine();
 
@@ -30,24 +40,11 @@ public class Task3 {
         File fileThree = new File(filePathThree);
         File fileFour = new File(filePathFour);
 
-        if (!fileFirst.exists() || !fileFirst.isFile()) {
-            System.out.println("Ошибка: первый файл не существует!");
-            return;
-        }
+        if (!validateFile(fileFirst, "Ошибка: первый файл не существует!")) return;
+        if (!validateFile(fileTwo, "Ошибка: второй файл не существует!")) return;
+        if (!validateFile(fileThree, "Ошибка: третий файл не существует!")) return;
+        if (!validateFile(fileFour, "Ошибка: четвертый файл не существует!")) return;
 
-        if (!fileTwo.exists() || !fileTwo.isFile()) {
-            System.out.println("Ошибка: второй файл не существует!");
-            return;
-        }
 
-        if (!fileThree.exists() || !fileThree.isFile()) {
-            System.out.println("Ошибка: третий файл не существует!");
-            return;
-        }
-
-        if (!fileFour.exists() || !fileFour.isFile()) {
-            System.out.println("Ошибка: четвертый файл не существует!");
-            return;
-        }
     }
 }
