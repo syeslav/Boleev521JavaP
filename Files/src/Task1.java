@@ -21,5 +21,27 @@ public class Task1 {
             System.out.println("Ошибка: файл не существует!");
             return;
         }
+
+        try (FileReader reader = new FileReader(file)) {
+            int letterCount = 0;
+            int digitCount = 0;
+            int punctuationCount = 0;
+            int c;
+
+            while ((c = reader.read()) != -1) {
+                char character = (char) c;
+
+                if (Character.isLetter(character)) {
+                    letterCount++;
+                } else if (Character.isDigit(character)) {
+                    digitCount++;
+                }
+                System.out.println("Результаты анализа файла:");
+                System.out.println("Буквы: " + letterCount);
+                System.out.println("Цифры: " + digitCount);
+            }
+        }catch (IOException e) {
+            System.out.println("Ошибка при чтении файла: " + e.getMessage());
+        }
     }
 }
